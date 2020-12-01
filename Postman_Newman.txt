@@ -1,0 +1,28 @@
+Today we will learn:
+How to run postman requests/tests from command line 
+1. Install node.js
+2. Install newman
+3. export collection and run from commandline
+
+Newman is a command line collection runner for Postman
+
+
+Step 1 : check if node.js is already installed
+             cmd
+             node -v
+             npm -v
+
+Step 2 : Install node.js
+             https://nodejs.org/en/download/
+             Check if node and npm are installed
+
+Step 3 : Install Newman
+             npm install -g newman
+
+
+Step 4 : Export collection as json file
+
+Step 5 : On cmd goto location of collection json file
+
+Step 6 : Run command
+ newman run collectionfilename.json

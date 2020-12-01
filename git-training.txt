@@ -22,9 +22,11 @@ now in the cmd prompt --press
 
 4. git commit -m " file addded //Message"
 
-5.git remote add origin https://github.com/vemuriravi/repo
+5.git remote add origin https://github.com/vemuriravi/repo.git
 
 6.git push -u origin master
+
+7. if error occured : Try git push -u origin master -f
 
 
 branches & Merging :
