@@ -26,7 +26,6 @@ Step3 : Genarate API Key And run it
 
 select workspace >>Integrations>>Postman API>>APIkey>>Generate 
 
-run that api key in postman will fetch all collections : https://api.getpostman.com/collections/295a641f-e517-476d-9060-856e4a6168a2?apikey=PMAK-5fb35aedda128e003577ed17-ad11489dde4b56181030393bc966320bbc
 
 
 select the collection in the response and run it 
