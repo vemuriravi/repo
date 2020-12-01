@@ -1,0 +1,34 @@
+Postman Collections running from postman :
+
+1. Running Postman collections Through Link :
+
+collection link :https://www.getpostman.com/collections/de7e2fcefec45fddcb32
+
+run in Postman :
+
+open cmd(command prompt)
+run command : newman run "collcetion link"
+
+step -2 
+
+1. Export collection as a json file and run it 
+
+
+export collection as json file and save it under floder (c:\\users\\desktop\\postman)
+
+open command Prompt 
+
+run command :newman run "c:\\users\\desktop\\postmanfloder\\collection name .json"
+
+
+
+Step3 : Genarate API Key And run it 
+
+select workspace >>Integrations>>Postman API>>APIkey>>Generate 
+
+run that api key in postman will fetch all collections : https://api.getpostman.com/collections/295a641f-e517-476d-9060-856e4a6168a2?apikey=PMAK-5fb35aedda128e003577ed17-ad11489dde4b56181030393bc966320bbc
+
+
+select the collection in the response and run it 
+
+

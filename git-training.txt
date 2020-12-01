@@ -1,0 +1,69 @@
+project Url :https://github.com/vemuriravi/postman
+
+Git Repositories : https://github.com/vemuriravi/postman.git
+
+
+Git Installation :
+
+Add to project/floder  to git 
+
+select the location of floder and press cmd : it will opens exact location on command prompt 
+
+now in the cmd prompt --press 
+
+1.git init 
+
+ git config --global user.email "ravikishorevemuri@gmail.com"
+ git config --global user.name "vemuriravi"
+
+2.git status 
+
+3. git add . ---> will added everything 
+
+4. git commit -m " file addded //Message"
+
+5.git remote add origin https://github.com/vemuriravi/repo
+
+6.git push -u origin master
+
+
+branches & Merging :
+
+Step 1 : Create branch 
+   git branch “branch name”
+
+Step 2 : Checkout branch
+   git checkout “branch name”
+
+step-3 
+ 	git status (for a branch)
+	git add . ---> will added everything (for a branch)
+ 	git commit -m " file addded //Message" (for a branch) 
+	git push -u origin branch name
+
+
+
+Step 4 : Merge new branch in master branch
+   
+when you merge your branch first you check out to the master 
+git checkout master 
+git merge “branch name”
+
+Now push changes to master  :
+
+git push -u origin master
+
+
+Step 5 : Delete branch
+   git branch -d “branch name”    — delete from local
+   git push origin —delete “branch name”   — delete from remote
+
+
+
+
+My IP Address Is:
+IPv6: 2401:4900:3281:4438:8d7d:a23a:f1f9:2ce4
+IPv4: 106.217.194.187
+
+http://106.217.194.187:8080
+12:04

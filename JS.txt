@@ -1,0 +1,181 @@
+var country = ["Jan","Feb","March","April","June","july","Aug","Sep","oct","Nov","Dec"];
+
+for (i=0;i<country.length;i++)
+{
+console.log(" The Index of month"+i+"the month is"+ country[i]);
+}
+
+it maily used for array iteration 
+
+syntax for each loop is :
+
+arryname.forEach(myfunction);
+
+
+
+function myfunction(value,inex,array)
+
+{
+
+
+}
+
+
+country.forEach(function(month,index)
+{
+console.log('The month is ${month} and position is ${index}');
+
+});
+
+
+Java Script Ojects :
+
+Ojects are defined in key value pairs   memans "Name" : " Ravi"  
+
+Here Name is Key and Ravi is an value
+
+Name is an property and Ravi is an property value 
+
+let Emp = {
+
+
+}
+
+here EMp is the object name 
+
+
+
+
+
+
+let test =  {"limits": {"59974328d59230f9a3f946fe": {
+           						"lists": {
+             							   "openPerBoard": {
+                  								  "count": 13,
+                   								 "status": "ok", 
+                    									"disableAt": 950,
+                  									  "warnAt": 900
+               										 },
+                "totalPerBoard": {
+                    "count": 20,
+                    "status": "ok",  <-- CHECK ME
+                    "disableAt": 950,
+                    "warnAt": 900
+                }
+            }
+        }
+    }
+}
+
+}
+
+function f(a) {
+    // Iterate over the properties (keys) in the object
+    for (var key in a) {
+        // console.log(key, a[key]);
+        // If the property is lists, return the lists object
+        if (a[key].indexOf('COUNTRY')) {
+            // console.log(limits[key].lists);
+            return a[key].indexOf('COUNTRY');
+        }
+    }
+}
+
+
+
+
+a.forEach(function f(value,index)
+          {
+    console.log(index);
+}
+);
+
+
+pm.test("Should be one of users", function () {
+    var jsonData = pm.response.json(); 
+
+if((jsonData.UserName)==("blogger"))
+{
+    console.log("true")
+}else
+{
+    console.log("flase")
+}
+ 
+});
+
+
+
+
+function f(a) {
+    // Iterate over the properties (keys) in the object
+    for (var key in a) {
+         console.log( a[key]);
+}
+}
+
+
+var numbers = [45, 4, 9, 16, 25];
+
+
+
+a.forEach(function myFunction(index) {
+
+console
+
+});
+
+
+
+
+let test ={
+    "companyId": 10101,
+    "regionId": 36554,
+    "filters": [
+        {
+            "id": 101,
+            "name": "VENDOR",
+            "isAllowed": false
+        },
+        {
+            "id": 102,
+            "name": "COUNTRY",
+            "isAllowed": true
+        },
+        {
+            "id": 103,
+            "name": "MANUFACTURER",
+            "isAllowed": false
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+

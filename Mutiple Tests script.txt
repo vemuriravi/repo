@@ -1,0 +1,24 @@
+Script for running multiple collections :
+
+Paste this script in Pre- Request 
+
+var mutipletest = ()=>{
+pm.test(" @ Test 1-Status code is 200", function () {
+    pm.response.to.have.status(200);
+})
+
+
+pm.test(" Test -2 Response Validation", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData[0].SNo).to.eql(2);
+});
+
+pm.test("Content-Type is present", function () {
+    pm.response.to.have.header("Content-Type");
+});
+}
+pm.environment.set("commontest",mutipletest.toString());
+
+paste this in Test Script :
+
+eval(pm.environment.get("commontest"))();

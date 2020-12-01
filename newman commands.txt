@@ -1,0 +1,16 @@
+
+Generate Reports on Html by using newman :
+
+
+
+
+newman run "C:\Users\Ravi\Desktop\postman\Test.json" -e "C:\Users\Ravi\Desktop\postman\env.json" --reporters html --reporter-html-export "C:\Users\Ravi\Desktop\postman\index.html"
+
+
+
+
+newman run "C:\Users\Ravi\Desktop\postman\Test.json" -e "C:\Users\Ravi\Desktop\postman\env.json" --reporters htmlextra  --reporter-htmlextra-export "C:\Users\Ravi\Desktop\postman\index3.html"
+
+
+1--4--2-3-1
+

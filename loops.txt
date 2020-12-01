@@ -1,0 +1,55 @@
+while loop :
+
+while loop lo fisrt variable declare cheyalli
+
+
+Exact number of iterations not know by us -- use while loop
+varible should be declared before 
+
+
+
+
+
+
+<button type="button"
+onclick= alert(Date())>
+Click me to display Date and Time.</button>
+
+
+<Script>
+
+var fruits =apple;
+
+switch(true)
+{
+case fruits ===apple :
+
+results="true"
+break;
+
+
+case fruits === banana
+:
+
+results="false";
+break;
+
+
+deafult : results ="tryanother";
+
+}
+
+document.write(results);
+
+</script>
+
+
+bitwise and logical operators 
+
+^ ex or is atleast one is true 
+
+
+
+var x ={}
+
+

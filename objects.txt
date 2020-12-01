@@ -1,0 +1,18 @@
+
+<script>
+
+funtion person(FirstName,LastName,Age)
+{
+this.firstName =FirstName;
+this.LastName=LastName;
+this.Age=Age;
+
+}
+
+var stu =new person("Ravi","Kishore",20);
+
+
+document.write(stu.age);
+
+
+</script>

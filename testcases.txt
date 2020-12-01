@@ -1,0 +1,48 @@
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+
+pm.test("Response has a JSON body", function () {
+    pm.response.to.be.json;
+});
+
+pm.test("Response has a message property", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.message).to.be.a('string');
+});
+
+
+
+pm.test("Response has a data property", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.data).to.be.a('object');
+});
+
+
+// Response Validation 
+
+ var Res = pm.response.json();
+pm.test("Test @1 ", function () {
+   
+    pm.expect(Res.data[0].id).to.eql(7);
+    pm.expect(Res.data[0].first_name).to.eql("Michael");
+    pm.expect(Res.data[0].first_name).to.be.a('string');
+    pm.expect(Res.data[0]).to.have.property('last_name').with.lengthOf(6);
+});
+
+//using arrays 
+//Iteration of an array 
+let d 
+for (const element of Res.data) {
+  
+  if ((element.first_name == "Michael")){
+//console.log(element);
+ d=element
+  }
+
+}
+//console.log(d)
+pm.test("Test @2 ", function () {
+    pm.expect(d.first_name).to.eql("Michael");
+});

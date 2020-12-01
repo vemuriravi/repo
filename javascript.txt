@@ -1,0 +1,53 @@
+var fuits ="Apple","banana";
+switch (fuits ="apple") {
+  case apple:
+    day = "Sunday";
+    break;
+  case banana:
+    day = "Monday";
+   
+}
+sry thankyou please 
+
+Functions : 
+
+Main Theme of functions is code re usability 
+
+
+
+loops :
+
+For loop-- syntax for : for(int i=0;i<=5;i++)
+{
+document.write("Hello");
+
+}
+while loop
+do while loop
+
+
+var z = function f(x,y)
+{
+
+return(x+y)
+
+}
+
+z("ravi","kishore")
+
+if(z("ravi","kishore")!== "ravikishore1")
+{
+console.log("hello")
+}
+else
+{
+console.log("hello1")
+}
+
+
+
+function f(x)
+{
+y=((x*45)/75)
+return(y*1200)
+}
